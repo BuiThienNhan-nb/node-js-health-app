@@ -1,0 +1,29 @@
+{
+  "name": "js-health-app",
+  "version": "1.0.0",
+  "description": "backend repo for health care application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuiThienNhan-nb/node-js-health-app.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "buithiennhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuiThienNhan-nb/node-js-health-app/issues"
+  },
+  "homepage": "https://github.com/BuiThienNhan-nb/node-js-health-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
